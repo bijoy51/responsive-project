@@ -1,0 +1,258 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --icon-color: rgb(0, 170, 141);
+    --text-color: rgb(132, 132, 132);
+    --icon-margin: 20px 10px 0px 20px;
+    --icon-font-size: 20px;
+    --text-font-size: 17px;
+    --margin-hr: 30px 0px 30px 0px;
+    --hr-width: 90%;
+    --range-bg-color:rgb(208, 208, 208);
+    --heading-font-size: clamp(1.6rem, 2vw + .5rem, 2rem);
+}
+.picture img{
+    max-width: 100%;
+}
+.main-with-sidebar{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.main-with-sidebar > :first-child{
+    box-shadow: var(--box-shadow);
+    margin-top: 20px;
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+.main-with-sidebar > :last-child{
+    margin-top: 20px;
+    flex-basis: 200px;
+    flex-grow: 9999;
+}
+.picture{
+    position: relative;
+}
+.name{
+    font-size: 20px;
+}
+.picture .name{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+.work{
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+}
+.fa-briefcase{
+    margin: var(--icon-margin);
+    font-size: var(--icon-font-size);
+    color: var(--icon-color);
+}
+.fa-house{
+    margin: var(--icon-margin);
+    font-size: var(--icon-font-size);
+    color: var(--icon-color);
+}
+.home{
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+}
+.fa-envelope{
+    margin: var(--icon-margin);
+    font-size: var(--icon-font-size);
+    color: var(--icon-color);
+}
+.email{
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+}
+.fa-envelope{
+    margin: var(--icon-margin);
+    font-size: var(--icon-font-size);
+    color: var(--icon-color);
+}
+.email{
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+}
+.fa-envelope{
+    margin: var(--icon-margin);
+    font-size: var(--icon-font-size);
+    color: var(--icon-color);
+}
+.email{
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+}
+.fa-phone{
+    margin: var(--icon-margin);
+    font-size: var(--icon-font-size);
+    color: var(--icon-color);
+}
+.phone{
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+}
+hr{
+    margin: var(--margin-hr);
+    max-width: var(--hr-width);
+    transform: translateX(5%);
+}
+.fa-star{
+    margin: var(--icon-margin);
+    font-size: var(--icon-font-size);
+    color: var(--icon-color);
+}
+.title{
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+}
+.skill-type p{
+    color: var(--text-color);
+    margin: var(--icon-margin);
+}
+.range{
+    max-width: 90%;
+    max-height: 20px;
+    border-radius: 10px;
+    background-color: var(--range-bg-color);
+    margin: 0 auto;
+}
+.limit{
+    max-width: 90%;
+    background-color: var(--icon-color);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.limit-1{
+    max-width: 80%;
+    background-color: var(--icon-color);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.limit-2{
+    max-width: 75%;
+    background-color: var(--icon-color);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.limit-3{
+    max-width: 50%;
+    background-color: var(--icon-color);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.fa-earth-americas{
+    margin: var(--icon-margin);
+    font-size: var(--icon-font-size);
+    color: var(--icon-color);
+}
+.limit-E{
+    max-width: 100%;
+    background-color: var(--icon-color);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.limit-S{
+    max-width: 50%;
+    background-color: var(--icon-color);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.limit-G{
+    max-width: 30%;
+    background-color: var(--icon-color);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.experience .fa-briefcase{
+    font-size: 40px;
+}
+.work-experience{
+    box-shadow: var(--box-shadow);
+    min-height: 80vh;
+}
+.experience{
+    font-size: var(--heading-font-size);
+    color: var(--text-color);
+}
+.skill{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.skill hr{
+    margin: var(--margin-hr);
+    max-width: 100%;
+    transform: translateX(0%);
+}
+.skill p{
+    margin-bottom: 20px;
+}
+.date .fa-calendar-days{
+    color: var(--icon-color);
+    font-size: var(--icon-font-size);
+    margin-right: 10px;
+}
+.date{
+    color: var(--icon-color);
+}
+.date span{
+    background-color: var(--icon-color);
+    color: white;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+.fa-school{
+    font-size: 40px;
+    color: var(--icon-color);
+    margin: var(--icon-margin);
+}
+.educational-qualification{
+    box-shadow: var(--box-shadow);
+    min-height: 70vh;
+    margin-top: 20px;
+}
+.education{
+    font-size: var(--heading-font-size);
+    color: var(--text-color);
+}
+.footer{
+    max-width: 100%;
+    min-height: 100px;
+    background-color: var(--icon-color);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color: white;
+    font-size: 20px;
+}
